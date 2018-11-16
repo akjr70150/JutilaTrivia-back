@@ -14,7 +14,7 @@ public class Kysymys {
     private int id;
     private String kysymys;
     private List<String> vastausvaihtoehdot = new ArrayList<>();
-    private String oikeavastausindeksi;
+    private int oikeaVastausIndeksi;
 
     public Kysymys() {
 
@@ -52,11 +52,11 @@ public class Kysymys {
         this.vastausvaihtoehdot = vastausvaihtoehdot;
     }
 
-    public String getOikeavastausindeksi() {
-        return oikeavastausindeksi;
+    public int getOikeaVastausIndeksi() {
+        return oikeaVastausIndeksi;
     }
 
-    public void setOikeavastausindeksi(String oikeavastausindeksi) {
-        this.oikeavastausindeksi = oikeavastausindeksi;
+    public void setOikeaVastausIndeksi(int oikeaVastausIndeksi) {
+        this.oikeaVastausIndeksi = oikeaVastausIndeksi;
     }
 }
